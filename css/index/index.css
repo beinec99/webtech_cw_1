@@ -43,9 +43,10 @@
         display: grid;
         justify-content: center;
         align-items: center;
-        grid-template-columns: repeat(2, 120px);
+        grid-template-columns: repeat(2, 150px);
         grid-template-rows: repeat(6, auto);
         padding: 35px 35px 0 35px;
+        column-gap: 45px;
     }
 }
 

@@ -13,6 +13,12 @@
     cursor: pointer;
 }
 
+.my-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 @media (max-width: 768px) {
     .categories > .category:nth-child(n+4) {
         display: none;

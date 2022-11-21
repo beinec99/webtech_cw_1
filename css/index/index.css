@@ -46,7 +46,6 @@
         grid-template-columns: repeat(2, 200px);
         grid-template-rows: repeat(6, auto);
         padding: 35px 35px 0 35px;
-        column-gap: 45px;
     }
 }
 

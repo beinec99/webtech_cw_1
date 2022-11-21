@@ -19,6 +19,15 @@
     justify-content: space-between;
     align-items: center;
 }
+.my-header .header-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+
 @media (max-width: 768px) {
     .categories > .category:nth-child(n+4) {
         display: none;

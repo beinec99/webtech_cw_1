@@ -32,6 +32,10 @@
     padding: 0 0 0 2rem;
 }
 
+.my-header .logo img{
+    width: 185px
+}
+
 .my-header .header-items {
     display: flex;
     flex-direction: row;

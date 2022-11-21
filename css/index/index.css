@@ -28,10 +28,14 @@
     transition: 0.4s;
 }
 
+.my-header .logo {
+    padding: 0 0 0 2rem;
+}
 .my-header .header-items {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 1rem 2rem;
 }
 .my-header.header-scrolled {
     position: fixed;

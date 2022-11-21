@@ -25,13 +25,20 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 3rem;
+    transition: 1s;
 }
 
 .my-header .header-items {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+.my-header.header-scrolled {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    transition: 1s;
 }
 
 .my-header .menu-bar {

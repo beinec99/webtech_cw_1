@@ -59,11 +59,6 @@
     padding: 1.5rem;
 }
 
-#job_detail_welcome .content .employment_information h2 {
-    border-bottom: 1px solid #e1e5ec;
-    padding-bottom: 1rem;
-}
-
 #job_detail_welcome .content .employment_information .infos {
     display: grid;
     justify-content: space-between;
@@ -94,6 +89,50 @@
     color: #05264E;
 }
 
+
+#job_detail_welcome .content .welcome_text {
+    border: 1px solid #e1e5ec;
+    border-radius: 15px;
+    text-align: left;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+#job_detail_welcome .content .welcome_text h2,
+#job_detail_welcome .content .essential_knowledge h2,
+#job_detail_welcome .content .employment_information h2 {
+    border-bottom: 1px solid #e1e5ec;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+#job_detail_welcome .content .welcome_text p {
+    width: 85%;
+    font-family: 'Roboto', sans-serif;
+    color: #4F5E64;
+}
+
+
+#job_detail_welcome .content .essential_knowledge {
+    border: 1px solid #e1e5ec;
+    border-radius: 15px;
+    text-align: left;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+#job_detail_welcome .content .essential_knowledge ul li{
+    margin: 1rem 0 0;
+    padding-left: 10px;
+    color: #4F5E64;
+}
+
+#job_detail_welcome .content .essential_knowledge ul li i {
+    font-size: 12px;
+    margin-right: 7px;
+    color: black;
+}
 
 @media (max-width: 1200px) {
     #job_detail_welcome .content .employment_information .infos {

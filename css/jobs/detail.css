@@ -43,21 +43,75 @@
 
 #job_detail_welcome .header .info h5 {
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 
 #job_detail_welcome .content {
     width: 90%;
     margin: 0rem auto auto auto;
-    border-top: 1px solid #F2F6FD;
 }
 
 
+#job_detail_welcome .content .employment_information {
+    border: 1px solid #F2F6FD;
+    border-radius: 15px;
+    text-align: left;
+    padding: 1.5rem;
+}
+
+#job_detail_welcome .content .employment_information h2 {
+    border-bottom: 1px solid #F2F6FD;
+    padding-bottom: 1rem;
+}
+
+#job_detail_welcome .content .employment_information .infos {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: repeat(4, 24%);
+    grid-template-rows: repeat(2, auto);
+    row-gap: 1.5rem;
+    padding: 1rem 0;
+}
+
+#job_detail_welcome .content .employment_information .infos .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0.5rem;
+    color: #05264E;
+}
+
+#job_detail_welcome .content .employment_information .infos .info div {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+#job_detail_welcome .content .employment_information .infos .info p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #05264E;
+}
+
+
+@media (max-width: 1200px) {
+    #job_detail_welcome .content .employment_information .infos {
+        grid-template-columns: repeat(3, 30%);
+        grid-template-rows: repeat(3, auto);
+    }
+}
+
+@media (max-width: 768px) {
+    #job_detail_welcome .content .employment_information .infos {
+        grid-template-columns: repeat(2, 47%);
+        grid-template-rows: repeat(4, auto);
+    }
+
+}
+
 @media (max-width: 576px) {
     #job_detail_welcome .body .img {
-        height: 300px;
-        border-radius: 15px;
-        background-size: cover;
-        background-repeat: no-repeat;
         background-image: url("https://images.pexels.com/photos/2182974/pexels-photo-2182974.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     }
 }

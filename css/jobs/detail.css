@@ -114,5 +114,10 @@
     #job_detail_welcome .body .img {
         background-image: url("https://images.pexels.com/photos/2182974/pexels-photo-2182974.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     }
+
+    #job_detail_welcome .content .employment_information .infos {
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(8, auto);
+    }
 }
 

@@ -15,6 +15,8 @@
 #job_detail_welcome .body .img {
     height: 300px;
     border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-image: url("https://jthemes.com/themes/wp/jobbox/wp-content/uploads/2022/09/thumb.png");
 }
 #job_detail_welcome .header {

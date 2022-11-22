@@ -53,14 +53,14 @@
 
 
 #job_detail_welcome .content .employment_information {
-    border: 1px solid #F2F6FD;
+    border: 1px solid #e1e5ec;
     border-radius: 15px;
     text-align: left;
     padding: 1.5rem;
 }
 
 #job_detail_welcome .content .employment_information h2 {
-    border-bottom: 1px solid #F2F6FD;
+    border-bottom: 1px solid #e1e5ec;
     padding-bottom: 1rem;
 }
 

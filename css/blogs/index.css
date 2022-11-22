@@ -1,0 +1,122 @@
+
+#blogs_page_welcome .body {
+    background-image: url("https://jthemes.com/themes/wp/jobbox/wp-content/themes/jobbox/assets/imgs/page/blog/bg-breadcrumb.png");
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+}
+
+#blogs_page_welcome .body h1 {
+    color: #05264E;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+#blogs_page_welcome .body p {
+    color: #66789C;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#blogs_page_welcome .body button {
+    background-color: #05264E;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+
+#blogs_page_welcome .body button:hover {
+    background-color: #3C65f5;
+    transition: 0.2s;
+}
+
+#blogs_page_welcome .content .blogs {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: repeat(3, 32%);
+    grid-template-rows: repeat(1, auto);
+    row-gap: 1.5rem;
+    margin-top: 2rem;
+    padding: 0 5rem;
+}
+
+#blogs_page_welcome .content .blogs .blog {
+    border-radius: 15px;
+    text-align: left;
+    background-image: url("https://jthemes.com/themes/wp/jobbox/wp-content/uploads/2022/09/jobbox-post-7.jpg");
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 1rem;
+    box-shadow: 0px -88px 154px 8px rgba(8, 5, 5, 0.96) inset;
+    -webkit-box-shadow: 0px -88px 154px 8px rgba(8, 5, 5, 0.96) inset;
+    -moz-box-shadow: 0px -88px 154px 8px rgba(8, 5, 5, 0.96) inset;
+}
+
+#blogs_page_welcome .content .blogs .blog .title h2 {
+    color: white;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#blogs_page_welcome .content .blogs .blog .author {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 15px;
+    padding: 1rem 0;
+    color: white;
+    width: 100%;
+}
+
+#blogs_page_welcome .content .blogs .blog .author .author-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 15px;
+}
+
+#blogs_page_welcome .content .blogs .blog .author .author-image .author-name,
+#blogs_page_welcome .content .blogs .blog .author .date span {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 400;
+}
+
+#blogs_page_welcome .content .blogs .blog .author .author-image img {
+    max-width: 45px;
+}
+
+
+@media (max-width: 1200px) {
+    #blogs_page_welcome .content .blogs {
+        grid-template-columns: repeat(2, 47%);
+        grid-template-rows: repeat(2, auto);
+    }
+}
+
+@media (max-width: 768px) {
+    #blogs_page_welcome .content .blogs {
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(1, auto);
+    }
+}

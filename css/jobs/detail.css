@@ -19,10 +19,12 @@
     background-repeat: no-repeat;
     background-image: url("https://jthemes.com/themes/wp/jobbox/wp-content/uploads/2022/09/thumb.png");
 }
+
 #job_detail_welcome .header {
     text-align: left;
     padding: 1.5rem 0;
 }
+
 #job_detail_welcome .header h1 {
     font-size: 38px;
     color: #05264E;
@@ -42,8 +44,21 @@
 #job_detail_welcome .header .info h5 {
     font-family: 'Roboto', sans-serif;
 }
+
 #job_detail_welcome .content {
     width: 90%;
     margin: 0rem auto auto auto;
     border-top: 1px solid #F2F6FD;
 }
+
+
+@media (max-width: 576px) {
+    #job_detail_welcome .body .img {
+        height: 300px;
+        border-radius: 15px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("https://images.pexels.com/photos/2182974/pexels-photo-2182974.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    }
+}
+

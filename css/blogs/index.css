@@ -120,12 +120,13 @@
         grid-template-rows: repeat(1, auto);
     }
 
+    #blogs_page_welcome .content .blogs {
+        padding: 0 3rem;
+    }
+
 
     #blogs_page_welcome .body {
-        min-height: 200px;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
+        min-height: 250px;
         flex-direction: column;
         justify-content: center;
         align-items: start;

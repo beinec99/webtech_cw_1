@@ -122,7 +122,7 @@
     margin-top: 2rem;
 }
 
-#job_detail_welcome .content .essential_knowledge ul li{
+#job_detail_welcome .content .essential_knowledge ul li {
     margin: 1rem 0 0;
     padding-left: 10px;
     color: #4F5E64;
@@ -147,6 +147,9 @@
         grid-template-rows: repeat(4, auto);
     }
 
+    #job_detail_welcome .content .welcome_text p {
+        width: 100%;
+    }
 }
 
 @media (max-width: 576px) {

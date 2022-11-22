@@ -134,8 +134,11 @@
 
 #job_detail_welcome .content .essential_knowledge ul li i {
     font-size: 12px;
-    margin-right: 7px;
     color: black;
+}
+
+#job_detail_welcome .content .essential_knowledge ul li span {
+    padding-left: 10px;
 }
 
 @media (max-width: 1200px) {

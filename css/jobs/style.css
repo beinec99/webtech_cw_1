@@ -153,4 +153,8 @@
     #jobs_page_welcome .content .jobs {
         grid-template-columns: repeat(1, 100%);
     }
+
+    #jobs_page_welcome .content .jobs .job .header .title {
+        font-size: 18px;
+    }
 }

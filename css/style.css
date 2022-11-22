@@ -43,6 +43,10 @@ li {
     font-size: 18px;
 }
 
+.highlight-text {
+    color: #3C65f5;
+}
+
 .text-center {
     text-align: center;
 }

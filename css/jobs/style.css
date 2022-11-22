@@ -1,0 +1,154 @@
+
+#jobs_page_welcome {
+    text-align: center;
+    width: 100%;
+    padding: 3rem 0;
+}
+
+#jobs_page_welcome .body {
+    background-color: #F2F6FD;
+    width: 90%;
+    margin: auto;
+    padding: 2rem 0;
+    border-radius: 15px;
+}
+
+#jobs_page_welcome .content {
+    width: 90%;
+    margin: 3rem auto auto auto;
+    border-top: 1px solid #F2F6FD;
+}
+
+#jobs_page_welcome .body h1 {
+    color: #05264E;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1rem;
+}
+
+#jobs_page_welcome .body p {
+    color: #66789C;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#jobs_page_welcome .content .jobs {
+    border-radius: 15px;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: repeat(4, 24%);
+    grid-template-rows: repeat(10, auto);
+    row-gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+#jobs_page_welcome .content .jobs .job {
+    background-color: #F2F6FD;
+    border-radius: 15px;
+    padding: 1.5rem 1rem;
+    text-align: left;
+}
+
+#jobs_page_welcome .content .jobs .job .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+#jobs_page_welcome .content .jobs .job .header .title {
+    color: #05264E;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 1rem;
+    text-align: left;
+}
+
+#jobs_page_welcome .content .jobs .job .header .title p {
+    margin-top: 0.5rem;
+    font-family: cursive;
+}
+
+#jobs_page_welcome .content .jobs .job .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+#jobs_page_welcome .content .jobs .job .info h5 {
+    color: #A0ABB8;
+    font-family: 'Roboto', sans-serif;
+}
+
+#jobs_page_welcome .content .jobs .job .info h5 i {
+    color: #4F5E64;
+}
+
+#jobs_page_welcome .content .jobs .job .description p {
+    font-family: 'Roboto', sans-serif;
+    color: #4F5E64;
+}
+
+#jobs_page_welcome .content .jobs .job .tags {
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(4, auto);
+    margin: 1.5rem 0;
+    column-gap: 0.5rem;
+}
+
+#jobs_page_welcome .content .jobs .job .tags .tag {
+    background-color: rgba(79, 94, 100, 0.10);
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+    font-family: "Rasa Light";
+    cursor: pointer;
+}
+
+#jobs_page_welcome .content .jobs .job .salary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#jobs_page_welcome .content .jobs .job .salary h3 {
+    color: #3C65f5;
+    font-family: 'Roboto', sans-serif;
+}
+
+#jobs_page_welcome .content .jobs .job .salary button {
+    background-color: #3C65f5;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    #jobs_page_welcome .content .jobs {
+        grid-template-columns: repeat(3, 30%);
+    }
+}
+
+@media (max-width: 992px) {
+
+}
+
+
+@media (max-width: 768px) {
+    #jobs_page_welcome .content .jobs {
+        grid-template-columns: repeat(2, 48%);
+    }
+}
+
+@media (max-width: 576px) {
+
+}

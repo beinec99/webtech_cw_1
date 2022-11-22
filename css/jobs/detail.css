@@ -1,0 +1,47 @@
+
+#job_detail_welcome {
+    text-align: center;
+    width: 100%;
+    padding: 3rem 0;
+}
+
+#job_detail_welcome .body {
+    width: 90%;
+    margin: auto;
+    border-radius: 15px;
+    min-height: 300px;
+}
+
+#job_detail_welcome .body .img {
+    height: 300px;
+    border-radius: 15px;
+    background-image: url("https://jthemes.com/themes/wp/jobbox/wp-content/uploads/2022/09/thumb.png");
+}
+#job_detail_welcome .header {
+    text-align: left;
+    padding: 1.5rem 0;
+}
+#job_detail_welcome .header h1 {
+    font-size: 38px;
+    color: #05264E;
+    font-family: 'Roboto', sans-serif;
+}
+
+#job_detail_welcome .header .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 15px;
+    padding: 0.5rem 0;
+    color: #A0ABB8;
+}
+
+#job_detail_welcome .header .info h5 {
+    font-family: 'Roboto', sans-serif;
+}
+#job_detail_welcome .content {
+    width: 90%;
+    margin: 0rem auto auto auto;
+    border-top: 1px solid #F2F6FD;
+}

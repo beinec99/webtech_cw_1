@@ -179,9 +179,19 @@
     }
 }
 
+@media (max-width: 768px) {
+    #detail_welcome_page .content .blog h1 {
+        font-size: 28px;
+    }
+}
+
 @media (max-width: 556px) {
     #detail_welcome_page .content {
         padding-top: 4rem;
         min-height: 3100px;
+    }
+
+    #detail_welcome_page .content .blog {
+        width: 85%;
     }
 }

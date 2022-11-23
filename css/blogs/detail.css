@@ -154,6 +154,7 @@
     border: 1px solid #e1e5ec;
     border-radius: 10px;
     width: calc(100% - 2rem);
+    line-height: 1.5;
 }
 
 #detail_welcome_page .content .blog .body .leave-comment form button {

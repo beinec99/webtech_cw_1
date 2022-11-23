@@ -195,12 +195,9 @@
         width: 90%;
     }
 
+    #detail_welcome_page .content .blog .body .img-container,
     #detail_welcome_page .content .blog .body .text,
     #detail_welcome_page .content .blog .body .list {
-        width: 80%;
-    }
-
-    #detail_welcome_page .content .blog .body .img-container {
         width: 90%;
     }
 }

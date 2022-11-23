@@ -49,7 +49,7 @@
     grid-template-rows: repeat(1, auto);
     row-gap: 1.5rem;
     margin-top: 2rem;
-    padding: 0 5rem;
+    padding: 1rem 5rem;
 }
 
 #blogs_page_welcome .content .blogs .blog {

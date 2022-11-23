@@ -197,7 +197,8 @@
 
     #detail_welcome_page .content .blog .body .img-container,
     #detail_welcome_page .content .blog .body .text,
-    #detail_welcome_page .content .blog .body .list {
+    #detail_welcome_page .content .blog .body .list,
+    #detail_welcome_page .content .blog .body .leave-comment {
         width: 90%;
     }
 }

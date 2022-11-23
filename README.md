@@ -22,5 +22,5 @@ There are 6(six) pages overall
 
 ## Domains
 
-  - [Webtech-cw1](https://webtech-cw1.netlify.app/) - Netlify
-  - [Webtech-cw1](https://webtech-cw1.glitch.me/) - Glitch
+  - [Webtech-cw1.netlify.app](https://webtech-cw1.netlify.app/) - Netlify
+  - [Webtech-cw1.glitch.me/](https://webtech-cw1.glitch.me/) - Glitch

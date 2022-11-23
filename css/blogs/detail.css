@@ -169,6 +169,18 @@
 
 @media (max-width: 1200px) {
     #detail_welcome_page .content .blog {
-        width: 95%;
+        width: 90%;
+    }
+}
+
+@media (max-width: 992px) {
+    #detail_welcome_page .content {
+        min-height: 2350px;
+    }
+}
+
+@media (max-width: 556px) {
+    #detail_welcome_page .content {
+        min-height: 2950px;
     }
 }

@@ -181,6 +181,7 @@
 
 @media (max-width: 556px) {
     #detail_welcome_page .content {
+        padding-top: 4rem;
         min-height: 3100px;
     }
 }

@@ -120,13 +120,14 @@
                     <p>Your email address will not be published. Required fields are marked *</p>
                     <form>
                         <div class="account-info">
-                            <input type="text" placeholder="Name*">
-                            <input type="email" placeholder="Email*">
+                            <input id="commenter_name" type="text" placeholder="Name*">
+                            <input id="commenter_email" type="email" placeholder="Email*">
                         </div>
                         <div class="message">
-                            <textarea rows="10" placeholder="✨ Leave your comment here and go check the comments you left in 'My Comments' page"></textarea>
+                            <textarea id="commenter_message" rows="10"
+                                      placeholder="✨ Leave your comment here and go check the comments you left in 'My Comments' page"></textarea>
                         </div>
-                        <button>Post Comment</button>
+                        <button type="button" id="post_comment">Post Comment</button>
                     </form>
                 </div>
             </div>
@@ -134,5 +135,7 @@
     </div>
 </section>
 
+<script src="../../js/blogs/CommentsDB.js"></script>
+<script src="../../js/blogs/detail.js"></script>
 </body>
 </html>

@@ -6,8 +6,8 @@
 
 One Paragraph of the project description
 
-You can visit the website in 
-[gist](https://webtech-cw1.netlify.app/). Website is about online jobs market where users view relevent jobs. Besides, in order not to get bored, there is a specific page that helps you spend your free time effectivly by reading some interesting blogs and, of course, leave comments to blogs. Later on, if you want to check out the comment you left, you can refer to 'My Comment' page to see detailed information about your comments.
+You can visit the website  
+[here](https://webtech-cw1.netlify.app/). Website is about online jobs market where users view relevent jobs. Besides, in order not to get bored, there is a specific page that helps you spend your free time effectivly by reading some interesting blogs and, of course, leave comments to blogs. Later on, if you want to check out the comment you left, you can refer to 'My Comment' page to see detailed information about your comments.
 
 ## Webiste pages
 

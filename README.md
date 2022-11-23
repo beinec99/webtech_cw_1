@@ -11,7 +11,7 @@ You can visit the website in
 
 ## Webiste pages
 
-There are 6(six) pages overall
+There are 6 (six) pages overall
 - [1. Home](https://webtech-cw1.netlify.app/)
 - [2. All Jobs](https://webtech-cw1.netlify.app/pase/jobs/index.html)
 - [3. Job Detail](https://webtech-cw1.netlify.app/pase/jobs/detail.html)

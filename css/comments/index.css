@@ -102,16 +102,32 @@
 
 @media (max-width: 1200px) {
     #comments_page_welcome .content {
-        grid-template-columns: repeat(2, 32%);
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(2, 45%);
         grid-template-rows: repeat(10, auto);
         width: 90%;
+        column-gap: 1rem;
+        row-gap: 0.1rem;
     }
 }
 
 @media (max-width: 576px) {
     #comments_page_welcome .content {
-        grid-template-columns: repeat(1, 32%);
+        grid-template-columns: repeat(1, 100%);
         grid-template-rows: repeat(10, auto);
         width: 90%;
     }
+
+    #comments_page_welcome .body {
+        padding: 0 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+
+    #comments_page_welcome .body p {
+        margin-bottom: 1rem;
+    }
+
 }

@@ -23,3 +23,4 @@ There are 6(six) pages overall
 ## Domains
 
   - [Webtech-cw1](https://webtech-cw1.netlify.app/pase/comments/index.html) - Netlify
+  - [Webtech-cw1](https://webtech-cw1.glitch.me/) - Glitch

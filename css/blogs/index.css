@@ -1,6 +1,6 @@
 
 #blogs_page_welcome .body {
-    background-image: url("https://jthemes.com/themes/wp/jobbox/wp-content/themes/jobbox/assets/imgs/page/blog/bg-breadcrumb.png");
+    background-image: url("../../assets/images/bg-breadcrumb.png");
     min-height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,7 +55,7 @@
 #blogs_page_welcome .content .blogs .blog {
     border-radius: 15px;
     text-align: left;
-    background-image: url("https://jthemes.com/themes/wp/jobbox/wp-content/uploads/2022/09/jobbox-post-7.jpg");
+    background-image: url("../../assets/images/jobbox-post.jpg");
     min-height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
